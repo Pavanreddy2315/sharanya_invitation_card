@@ -21,8 +21,10 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    transition: transform 0.2s ease; /* Optional hover effect */
 }
 
-area {
-    outline: 2px solid rgba(0, 0, 255, 0.3); 
+.responsive-image:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
