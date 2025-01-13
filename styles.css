@@ -25,3 +25,19 @@ body {
 .image-container {
     padding: 20px;
 }
+
+.address-link {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.address-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.address-link a:hover {
+    text-decoration: underline;
+}
