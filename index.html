@@ -7,20 +7,31 @@
 
     <meta property="og:title" content="Sharanya Half-saree Ceremony Invitation Card">
     <meta property="og:description" content="You are cordially invited to Sharanya's Half-saree Ceremony. Click to view details.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Pavanreddy2315/sharanya_invitation_card/main/sharanya-invitation.png">
-    <meta property="og:url" content="https://yourwebsite.com/invitation">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Pavanreddy2315/sharanya_invitation_card/main/sharanya-invitation-card.png">
+    <meta property="og:url" content="https://yourwebsite.com/invitation"> <!-- Replace with actual URL -->
     <meta property="og:type" content="website">
 
     <meta name="description" content="Invitation to Sharanya's Half-saree Ceremony. Find all the details here.">
+
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <div class="image-container">
-        <img src="https://raw.githubusercontent.com/Pavanreddy2315/sharanya_invitation_card/main/sharanya-invitation-card.png" alt="Invitation Card" class="responsive-image">
-    </div>
-    
-    <div class="address-link">
-        <a href="https://maps.app.goo.gl/46yCqHbS6S7xWKn16?g_st=ac" target="_blank">Get address to Abhiram Gardens</a>
+        <!-- Define the image with a clickable map -->
+        <img 
+            src="https://raw.githubusercontent.com/Pavanreddy2315/sharanya_invitation_card/main/sharanya-invitation-card.png" 
+            alt="Invitation Card" 
+            class="responsive-image" 
+            usemap="#invitation-map">
+
+        <map name="invitation-map">
+            <area 
+                shape="rect" 
+                coords="100,150,300,350" 
+                href="https://maps.app.goo.gl/46yCqHbS6S7xWKn16?g_st=ac" 
+                target="_blank" 
+                alt="Click for Address">
+        </map>
     </div>
 </body>
 </html>
